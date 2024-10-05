@@ -1,0 +1,129 @@
+.hero-section {
+    height: 90vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background-color: #FAF3E0;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between text and image */
+    width: 100%;
+    max-width: 1200px; /* Adjust based on your design */
+    padding: 20px;
+    /* Optional background to enhance readability */
+    border-radius: 8px; /* Optional rounded corners */
+}
+
+.hero-text {
+    flex: 1;
+    color: #fff; /* Text color */
+    margin-right: 20px; /* Space between text and image */
+}
+
+.hero-title {
+    font-size: 3rem; /* Adjust as needed */
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem; /* Adjust as needed */
+    margin-bottom: 30px;
+    color:  #808080;
+}
+
+.hero-button {
+    font-size: 1.25rem; /* Adjust as needed */
+    padding: 10px 20px;
+    background-color: #F7C600;
+    border: none;
+
+}
+
+.hero-image {
+    flex-shrink: 0; /* Prevent the image from shrinking */
+    width: 50%; /* Adjust based on your design */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image img {
+    max-width: 100%; /* Ensure image scales with container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional rounded corners */
+}
+
+
+.services-section {
+    padding: 60px 20px;
+    background-color: #F5F5DC; /* Cream background to match the hero section */
+}
+
+.services-title {
+    text-align: center;
+    font-size: 2.5rem; /* Adjust as needed */
+    margin-bottom: 40px;
+    color: #333; /* Dark text color for contrast */
+}
+
+.service-card {
+    border: none;
+    border-radius: 8px; /* Rounded corners to match hero section */
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.2);  /* Subtle shadow for a modern look */
+}
+
+.service-card img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.service-card .card-body {
+    background-color: #fff; /* White background for card body */
+}
+
+.service-card .card-title {
+    font-size: 1.5rem; /* Adjust as needed */
+    color: #333;
+}
+
+.service-card .card-text {
+    font-size: 1rem; /* Adjust as needed */
+    color: #555;
+}
+
+.services-title
+{
+    font-size: 3rem; /* Adjust as needed */
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.about-section, .contact-section {
+    padding: 60px 0;
+    background-color: #F5F5DC;
+     /* Matching the theme color */
+}
+
+.about-text, .contact-text {
+    color: #333;
+}
+
+.about-image img, .contact-image img {
+    max-width: 100%;
+    border-radius: 8px; /* Optional rounded corners for images */
+}
+
+
+.t
+{
+    font-size: 3rem; /* Adjust as needed */
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #4CAF50;
+}
